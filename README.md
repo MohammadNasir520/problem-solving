@@ -16,7 +16,7 @@ sample input/output for quick validation.
 <!-- SUMMARY:START -->
 | Total Problems Solved | Days Active | Codeforces Problems |
 | :-------------------: | :---------: | :-----------------: |
-| 2 | 1 | 1 |
+| 1 | 1 | 1 |
 <!-- SUMMARY:END -->
 
 ## Daily Log
@@ -27,7 +27,6 @@ Last updated: 02 May 2026
 | Day | Date | Problem | Solution | Input | Output |
 | :-: | :--: | ------- | -------- | :---: | :----: |
 | [Day 1](day1-01:05:2026/) | 01:05:2026 | [231A](https://codeforces.com/problemset/problem/231/A) | [231A.cpp](day1-01:05:2026/231A.cpp) | [input.txt](day1-01:05:2026/input.txt) | [output.txt](day1-01:05:2026/output.txt) |
-| [Day 2](day2-01:05:2026/) | 01:05:2026 | test | [any.cpp](day2-01:05:2026/any.cpp) | [input.txt](day2-01:05:2026/input.txt) | [output.txt](day2-01:05:2026/output.txt) |
 <!-- DAILY-LOG:END -->
 
 
