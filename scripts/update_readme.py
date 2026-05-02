@@ -4,6 +4,7 @@ import os
 import re
 import subprocess
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -233,8 +234,9 @@ def activity_grid(active_dates: set, date_to_folder=None) -> str:
             else:
                 title = day.strftime("%B %d, %Y")
                 if day in active_dates:
-                    folder = date_to_folder.get(day, "#") if date_to_folder else "#"
-                    rows.append(f'    <td><a href="{folder}" title="{title}">🟩</a></td>')
+                    raw = date_to_folder.get(day, "") if date_to_folder else ""
+                    href = quote(raw, safe="/") if raw else "#"
+                    rows.append(f'    <td><a href="{href}" title="{title}">🟩</a></td>')
                 else:
                     rows.append(f'    <td><a href="#" title="{title}">⬜</a></td>')
         rows.append("  </tr>")
