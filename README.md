@@ -132,8 +132,13 @@ sample input/output for quick validation.
     <td></td>
   </tr>
 </table>
-<!-- SUMMARY:END -->
-## Daily Log
+
+<div align="center">
+  <h2>Daily Log</h2>
+  <p><sub>A running record of every problem solved, every day.<br>Consistency beats intensity &nbsp;·&nbsp; One solve at a time.</sub></p>
+</div>
+
+---
 
 <!-- DAILY-LOG:START -->
 Last updated: 02 May 2026
